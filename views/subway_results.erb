@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Your Results </title>
+    <link rel="stylesheet" href="css/subway_style.css" type="../public/css">
+  </head>
+  <body class ="<%=@trip_is%>" >
+
+<h1> Travel time: <%=@trip_time%> minutes</h1>
+<h1> <%=@return_route%></h1>
+    <div class=”results_map”>
+  <!-- need to add the iframe map from the right trip -->
+<%=@map%>
+    </div>
+<!--     <div> test <%= @trip_is %></div> -->
+
+  <form class="hover_button" method= "POST" action="/choose_route">
+     <input type="submit" value="Would you like
+another subway route?">
+</form>
+
+  </body>
+</html>
+

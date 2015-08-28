@@ -1,0 +1,74 @@
+body {
+color: rgb(30,144,255);
+background-image: url("https://hostelblog.hostelrocket.com/wp-content/uploads/2014/11/Top-Pizza-NYC6.jpg");
+  background-size: cover;
+  text-align: center;
+}
+body.trip1 {
+  background-image: url("http://i.imgur.com/irWVTBh.jpg");
+}
+body.trip2 {
+  background-image: url("http://cdn.zmescience.com/wp-content/uploads/2015/02/73601683.jpg");
+}
+body.trip3 {
+  background-image: url("http://cdn.zmescience.com/wp-content/uploads/2015/02/73601683.jpg");
+}
+body.trip4 {
+  background-image: url("http://cdn.zmescience.com/wp-content/uploads/2015/02/73601683.jpg");
+}
+body.trip5 {
+  background-image: url("http://cdn.zmescience.com/wp-content/uploads/2015/02/73601683.jpg");
+}
+
+/* p {
+  color:rgb(255,140,0);
+} */
+
+}
+h1 {
+/* color:rgb(0, 0, 255); */
+text-decoration: underline;
+opacity: 0.2;
+}
+
+.results_map {
+  border: 1px solid rgb(70,130,180);
+  display: incline-block;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.column:hover{
+  background-color: rgb(255,255,255);
+}
+
+
+.favs {
+  font-size 44px;
+  background-color: white;
+}
+
+img {
+  width: 500px;
+  border: 3px solid rgb(70,130,180);
+  border-radius: 20px;
+}s
+
+p {
+    font-family: "Helvetica Neue", Times, serif;
+}
+h2 {
+  font-size: 90px;
+  text-align: center;
+}
+
+input {
+  height: 48px;
+  width: 200px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.hover_button input:hover,
+input.hover_button:hover{
+background-color:rgb(255,215,0);
+}
